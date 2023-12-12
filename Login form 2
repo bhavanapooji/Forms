@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login2</title>
+    <link rel="stylesheet" href="./login2.css">
+</head>
+<body>
+    <form action="" id="form">
+        <p id="caption1">Login Form</p>
+                   <input type="email" placeholder="Email or Username" name="login2user" required><br>
+                   <input type="password" placeholder="Password" name="login2pass" required><br>
+                   <span id="fp">Forget Password?</span> <br>
+<button class="loginn">LOGIN</button>            
+          
+       
+   <br>
+       <span id="notamember1">Not a member?</span>
+       <a href="" id="signupnow1">Signup now</a>
+   
+      </form> 
+</body>
+</html>
