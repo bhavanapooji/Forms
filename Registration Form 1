@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reg1</title>
+ <style>
+
+body{
+    margin-left:500px;
+    margin-top:40px;
+}
+    form{
+    background-color: #9cbc2c;
+    height:650px;
+    width:500px;
+}
+table{
+    border: 1px solid;
+    border-radius:5px;
+    margin-left:60px;
+    margin-bottom: 15px;;
+    margin-top:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: rgb(250, 249, 249);
+    position: absolute;
+
+}
+.reg1{
+    background-color: #e0f597;
+    border-color:  #e0f597;
+    border-radius:3px;
+}
+.hoverr:hover{
+    background-color: #7b9c04;
+    color:black;
+}
+.hoverr{
+    background-color: #9cbc2c;
+}
+</style>
+</head>
+<body>
+    <form action="" autocomplete="off">
+        <table>
+            <tr>
+                <td colspan="10" ><dt><strong>Step 1: Your Details</strong></dt></td>
+            </tr>
+            
+            <tr >
+                <td label for="" >Name</label></td>
+                <td ><input type="text" placeholder="First and last name" name="uname" autofocus class="reg1"></td>
+            </tr>
+            <tr>
+                <td><label for="">Email</label></td>
+                <td><input type="email" placeholder="example@domain.com" name="mail" required class="reg1"></td>
+            </tr>
+            <tr>
+                <td><label for="">Phone</label></td>
+                <td><input type="tel" placeholder="Eg: +4475000000" name=phone maxlength="10" pattern="[6-9]{1}[0-9]{9}" title="First digit between [6-9] & maximun length=10 " required class="reg1"></td>
+            </tr>
+            <tr>
+                <td colspan="10" ><dt><strong>Step 2: Delivery Address</strong></dt></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea name="address" id="" cols="17" rows="5" class="reg1"></textarea ></td>
+            </tr>
+            <tr>
+                <td><label for="">Postcode</label></td>
+                <td><input type="tel" name="postcode" maxlength="6" required class="reg1"></td>
+            </tr>
+            <tr>
+                <td><label for="">Country</label></td>
+                <td><input type="text" name="country" required class="reg1"></td>
+            </tr>
+            <tr>
+                <td colspan="10"><dt><strong>Step 3: Card Details</strong></dt></td>
+            </tr>
+            <tr>
+                <td colspan="10">
+                    <label for="">Card Type</label>
+                    <dd><input type="radio" name="card" value="visa" >VISA
+                        <input type="radio" name="card" value="AmEx" >AmEx
+                        <input type="radio" name="card" value="Mastercard" >Mastercard</dd></td>
+            </tr>
+            <tr>
+                <td><label for="">Card number</label></td>
+                <td><input type="tel" name="card no." required class="reg1"></td>
+            </tr>
+            <tr>
+                <td><label for="">Security Code</label></td>
+                <td><input type="tel" name="code" maxlength="8" required class="reg1"></td>
+            </tr>
+            <tr>
+                <td><label for="">Name on card</label></td>
+                <td><input type="text" name="cname" placeholder="Exact name as on the card" required class="reg1"></td>
+            </tr>
+            <tr>
+                <td><input type="submit"  class="hoverr">
+                <input type="reset" class="hoverr"></td>
+            </tr>  
+        </table>  
+    </form>
+
+</body>
+</html>
